@@ -2493,7 +2493,7 @@ a {
 }
 
 .heroslide_im {
-  background-image: url("../images/hall.png");
+  background-image: url("images/hall.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -2502,15 +2502,15 @@ a {
 }
 
 .heroslide_im.is--first {
-  background-image: url("../images/gym.png");
+  background-image: url("images/gym.png");
 }
 
 .heroslide_im.is--third {
-  background-image: url("../images/bedroom.png");
+  background-image: url("images/bedroom.png");
 }
 
 .heroslide_im.is--fourth {
-  background-image: url("../images/bbmp.png");
+  background-image: url("images/bbmp.png");
 }
 
 .heroslide_im.is--fifth {
@@ -2533,7 +2533,7 @@ a {
 
 .decarrow {
   background-color: var(--2);
-  background-image: url("../images/Logo_emblem.png");
+  background-image: url("images/Logo_emblem.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 55%;
@@ -2809,7 +2809,7 @@ a {
 
 .s3image {
   z-index: 1;
-  background-image: url("../images/Chaitra_Manor.png");
+  background-image: url("images/Chaitra_Manor.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2833,14 +2833,14 @@ a {
 
 .s3image._02 {
   z-index: 2;
-  background-image: url("../images/RRLivingston.png");
+  background-image: url("images/RRLivingston.png");
   margin-bottom: 20px;
   top: 90px;
 }
 
 .s3image._03 {
   z-index: 3;
-  background-image: url("../images/RR_Towers.png");
+  background-image: url("images/RR_Towers.png");
   margin-bottom: 10px;
   top: 100px;
 }
@@ -5638,7 +5638,7 @@ a {
   }
 
   .decarrow.s2cards {
-    background-image: url("../images/Logo_emblem.png");
+    background-image: url("images/Logo_emblem.png");
   }
 
   .s2_wrap {
@@ -6356,7 +6356,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .s1_wrap {
-    background-image: url("../images/RR_enclave_Sanjaynagar.png");
+    background-image: url("images/RR_enclave_Sanjaynagar.png");
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: auto;

@@ -2493,7 +2493,7 @@ a {
 }
 
 .heroslide_im {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b455b03516146c1b95f3db_heroslider2.webp");
+  background-image: url("../images/hall.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -2502,15 +2502,15 @@ a {
 }
 
 .heroslide_im.is--first {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/699883bafe7fbdf12595ab6a_HeroS1.webp");
+  background-image: url("../images/gym.png");
 }
 
 .heroslide_im.is--third {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b455af08274ae6246d6070_heroslider3.webp");
+  background-image: url("../images/bedroom.png");
 }
 
 .heroslide_im.is--fourth {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b455af03fd9c6696b126e3_heroslider4.webp");
+  background-image: url("../images/bbmp.png");
 }
 
 .heroslide_im.is--fifth {
@@ -2533,7 +2533,7 @@ a {
 
 .decarrow {
   background-color: var(--2);
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b2be1dab692123a0263247_Axis_Emblem.webp");
+  background-image: url("../images/Logo_emblem.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 55%;
@@ -2774,7 +2774,7 @@ a {
   color: var(--2);
 }
 
-.numpag._02, .numpag._03 {
+.numpag._02, .numpag._03, .numpag._04, .numpag._05{
   color: var(--4);
 }
 
@@ -2809,7 +2809,7 @@ a {
 
 .s3image {
   z-index: 1;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6998c77ef93d089b0bb953c3_s3_1.webp");
+  background-image: url("../images/Chaitra_Manor.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2833,14 +2833,21 @@ a {
 
 .s3image._02 {
   z-index: 2;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6998c77e98c8ebabdd78080f_s3_2.webp");
+  background-image: url("../images/RRLivingston.png");
   margin-bottom: 20px;
   top: 90px;
 }
 
 .s3image._03 {
   z-index: 3;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6998c77e7be0d8fb0a4235ec_s3_3.webp");
+  background-image: url("../images/RR_Towers.png");
+  margin-bottom: 10px;
+  top: 100px;
+}
+
+.s3image._04 {
+  z-index: 3;
+  background-image: url("images/RR_enclave_Sanjaynagar.png");
   margin-bottom: 10px;
   top: 100px;
 }
@@ -4053,6 +4060,18 @@ a {
   display: flex;
 }
 
+  .menuiitem {
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .menuiitem {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  
 .menulink_mobile {
   color: var(--3);
   font-family: Onest, sans-serif;
@@ -4294,6 +4313,11 @@ a {
   }
 
   .s3image._03 {
+    height: 550px;
+    top: 60px;
+  }
+  
+    .s3image._04 {
     height: 550px;
     top: 60px;
   }
@@ -4581,6 +4605,11 @@ a {
   }
 
   .s3image._03 {
+    height: 600px;
+    top: 60px;
+  }
+  
+   .s3image._04 {
     height: 600px;
     top: 60px;
   }
@@ -5096,6 +5125,12 @@ a {
     margin-bottom: 0;
     top: 60px;
   }
+  
+   .s3image._04 {
+    height: 810px;
+    margin-bottom: 0;
+    top: 60px;
+  }
 
   .s3imtitle {
     font-size: 50px;
@@ -5603,7 +5638,7 @@ a {
   }
 
   .decarrow.s2cards {
-    background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/699c64256af38c40172afe96_PlusS.webp");
+    background-image: url("../images/Logo_emblem.png");
   }
 
   .s2_wrap {
@@ -6284,13 +6319,6 @@ a {
     flex-flow: column;
   }
 
-  .menuiitem {
-    grid-column-gap: 45px;
-    grid-row-gap: 45px;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
   .menulink_mobile {
     color: var(--2);
     font-family: Urbanist, sans-serif;
@@ -6328,10 +6356,10 @@ a {
 
 @media screen and (max-width: 767px) {
   .s1_wrap {
-    background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69a8310f7bef5d6a7f95234d_BackgroundHeroM.webp");
-    background-position: 50% 100%;
+    background-image: url("../images/RR_enclave_Sanjaynagar.png");
+    background-position: 70% 100%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
   }
 
   .buttoncta.bigfont {
@@ -6724,6 +6752,15 @@ a {
     padding-right: 0;
     top: 60px;
   }
+  
+    .s3image._04 {
+    background-image: url("images/RR_enclave_Sanjaynagar.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-right: 0;
+    top: 60px;
+  }
 
   .s3cardwrapper {
     width: 100%;
@@ -7096,10 +7133,6 @@ a {
     grid-row-gap: 20px;
   }
 
-  .menuiitem {
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-  }
 
   .menulink_mobile {
     font-size: 10.9453vw;

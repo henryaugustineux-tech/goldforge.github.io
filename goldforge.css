@@ -2670,7 +2670,7 @@ a {
 .s2card._01 {
   grid-column-gap: 200px;
   grid-row-gap: 200px;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999a0256bb9abc579cf258f_Card%201.webp");
+  background-image: url("images/s2Card_01.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -2681,7 +2681,7 @@ a {
   grid-column-gap: 70px;
   grid-row-gap: 70px;
   background-color: #0000;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999a02596125f9ce4e7ac3d_Card%202.webp");
+  background-image: url("images/s2Card_02_white.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -2691,7 +2691,7 @@ a {
 .s2card._03 {
   grid-column-gap: 140px;
   grid-row-gap: 140px;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999a0259a7fa3805711b684_Card%203.webp");
+  background-image: url("images/s2Card_03.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3012,7 +3012,7 @@ a {
 }
 
 .objectimage {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b458a2adc2ad16828ff838_4block4.webp");
+  background-image: url("images/Saisundar_residency.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3022,19 +3022,19 @@ a {
 }
 
 .objectimage.is--first {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999dad505e55aa999caefb1_4block1.webp");
+  background-image: url("images/Saisadanenclave.png");
 }
 
 .objectimage.is--second {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b458a470dc6b38c6fe74bb_4block2.webp");
+  background-image: url("images/RRTowersKodi.png");
 }
 
 .objectimage.is--third {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b458a3376988ae4c67812f_4block3.webp");
+  background-image: url("images/KVResidency_yelhanka.png");
 }
 
 .objectimage.is--fifth {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69b458a3020cc2908f4547af_4block5.webp");
+  background-image: url("images/Vas_mansion.png");
 }
 
 .s4slidepag {
@@ -6304,7 +6304,7 @@ a {
 
   .closemenu {
     background-color: var(--2);
-    background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69a70f678728fa088d471b00_MinusS_Black.webp");
+    background-image: url("images/minusblack.png");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 25px;

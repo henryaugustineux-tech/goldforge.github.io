@@ -2218,7 +2218,8 @@ a {
 }
 
 .navmenu {
-  background-color: var(--1);
+  background: rgb(0 0 0 / 60%);
+  opacity:50%;
   border-radius: 12px;
   flex-flow: row;
   justify-content: space-between;
@@ -2251,7 +2252,7 @@ a {
 .menu {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-color: var(--2);
+  background-color: none;
   border-radius: 10px;
   justify-content: flex-start;
   align-items: center;
@@ -2300,8 +2301,8 @@ a {
 }
 
 .menuitem {
-  background-color: var(--2);
-  color: var(--1);
+  background-color: none;
+  color: White;
   border-radius: 10px;
   padding: 10px 15px;
   font-family: Onest, sans-serif;
@@ -2311,7 +2312,8 @@ a {
 }
 
 .menuitem:hover {
-  filter: invert();
+  color: White;
+  text-decoration: underline;
 }
 
 .hero_bottom {

@@ -6729,19 +6729,20 @@ a {
 
   .s3image._01 {
     background-image: url("images/Chaitra_Manor.png");
-    background-position: 50%;
+    background-position: 50% center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+/*     background-size: 100% 100%; */
     padding-left: 15px;
     padding-right: 0;
     top: 40px;
+
   }
 
   .s3image._02 {
     background-image: url("images/RRLivingston.png");
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+/*     background-size: 100% 100%; */
     padding-right: 0;
     top: 50px;
   }
@@ -6750,7 +6751,7 @@ a {
     background-image: url("images/RR_Towers.png");
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+/*     background-size: 100% 100%; */
     padding-right: 0;
     top: 60px;
   }
@@ -6759,7 +6760,7 @@ a {
     background-image: url("images/RR_enclave_Sanjaynagar.png");
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+/*     background-size: 100% 100%; */
     padding-right: 0;
     top: 60px;
   }

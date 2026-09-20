@@ -2162,7 +2162,7 @@ h5 {
   font-family: Onest, sans-serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 110%;
+  line-height: 120%;
 }
 
 h6 {
@@ -2625,7 +2625,8 @@ a {
 
 .s2title1 {
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(315deg, #fff 22%, #9990);
+  /* background-image: linear-gradient(315deg, #fff 22%, #9990); */
+  background-image: linear-gradient(315deg, #fff 100%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 80px;
@@ -2923,7 +2924,8 @@ a {
   white-space: nowrap;
   word-break: keep-all;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(46deg, #fff 47%, #9990);
+  /* background-image: linear-gradient(46deg, #fff 47%, #9990); */
+  background-image: linear-gradient(46deg, #fff 100%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 80px;
@@ -2935,7 +2937,8 @@ a {
   white-space: nowrap;
   word-break: keep-all;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(24deg, #fff 35%, #9990);
+  /* background-image: linear-gradient(24deg, #fff 35%, #9990); */
+  background-image: linear-gradient(24deg, #fff 100%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 80px;
@@ -3539,7 +3542,8 @@ a {
 .s2title2 {
   text-align: right;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(300deg, #fff 30%, #9990);
+  /* background-image: linear-gradient(300deg, #fff 30%, #9990); */
+  background-image: linear-gradient(300deg, #fff 100%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 80px;
@@ -3574,7 +3578,8 @@ a {
   white-space: nowrap;
   word-break: keep-all;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(320deg, #fff 10% 20%, #9990);
+  /* background-image: linear-gradient(320deg, #fff 10% 20%, #9990); */
+  background-image: linear-gradient(320deg, #fff 100% 100%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 80px;
@@ -3586,7 +3591,8 @@ a {
   white-space: nowrap;
   word-break: keep-all;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(320deg, #fff 40%, #9990);
+  /* background-image: linear-gradient(320deg, #fff 40%, #9990); */
+  background-image: linear-gradient(320deg, #fff 100%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 80px;
@@ -3674,7 +3680,8 @@ a {
   white-space: nowrap;
   word-break: keep-all;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(342deg, #fff, #fff 0%, #9990);
+  /* background-image: linear-gradient(342deg, #fff, #fff 0%, #9990); */
+  background-image: linear-gradient(342deg, #fff, #fff 100%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 80px;
@@ -3919,7 +3926,7 @@ a {
 
 .adress {
   font-size: 14px;
-  line-height: 110%;
+  line-height: 120%;
 }
 
 .plus_im {

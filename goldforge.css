@@ -2951,7 +2951,7 @@ a {
 }
 
 .left-arrow-2 {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69987fdad35d2d35cb36a307_2d2586e3e5aae07a33ebb41e11eac6ce_ArrowL.svg"), url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999d58dd3a1621cd3898ead_ArrowWrap.webp");
+  background-image: url("images/ArrowL.svg"), url("images/ArrowWrap.webp");
   background-position: 50%, 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 100% 100%;
@@ -2967,7 +2967,7 @@ a {
 }
 
 .right-arrow-2 {
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999d69a0dc8577fba5e536f_ArrowR.svg"), url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999d58dd3a1621cd3898ead_ArrowWrap.webp");
+  background-image: url("images/ArrowR.svg"), url("images/ArrowWrap.webp");
   background-position: 50%, 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 100% 100%;

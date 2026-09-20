@@ -2055,7 +2055,8 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Onest Thin;
-  src: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999e2553bd167ed4dd876ec_Onest-Thin.ttf") format("truetype");
+  src: url("images/Onest-Thin.ttf") format("truetype");
+  /* src: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999e2553bd167ed4dd876ec_Onest-Thin.ttf") format("truetype"); */
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -2453,7 +2454,7 @@ a {
 
 .left-arrow {
   background-color: #00000040;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69987fdad35d2d35cb36a307_2d2586e3e5aae07a33ebb41e11eac6ce_ArrowL.svg");
+  background-image: url("images/ArrowL.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -2469,7 +2470,7 @@ a {
 
 .right-arrow {
   background-color: #00000040;
-  background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999d69a0dc8577fba5e536f_ArrowR.svg");
+  background-image: url("images/ArrowR.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6203,7 +6204,7 @@ a {
   }
 
   .left-arrow-4 {
-    background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/69987fdad35d2d35cb36a307_2d2586e3e5aae07a33ebb41e11eac6ce_ArrowL.svg"), url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999d58dd3a1621cd3898ead_ArrowWrap.webp");
+    background-image: url("images/ArrowL.svg"), url("images/ArrowWrap.webp");
     background-position: 50%, 50%;
     background-repeat: no-repeat, no-repeat;
     background-size: auto, 100% 100%;
@@ -6213,7 +6214,7 @@ a {
   }
 
   .right-arrow-4 {
-    background-image: url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999d69a0dc8577fba5e536f_ArrowR.svg"), url("https://cdn.prod.website-files.com/69972fcf4593997ff1811b05/6999d58dd3a1621cd3898ead_ArrowWrap.webp");
+	background-image: url("images/ArrowR.svg"), url("images/ArrowWrap.webp");
     background-position: 50%, 50%;
     background-repeat: no-repeat, no-repeat;
     background-size: auto, 100% 100%;

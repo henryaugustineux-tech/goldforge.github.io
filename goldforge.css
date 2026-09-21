@@ -3261,8 +3261,8 @@ a {
   grid-row-gap: 15px;
   flex-flow: column;
   width: 280px;
-  display: flex;
   overflow: hidden;
+  position: relative;
 }
 
 .pros_text {
@@ -3275,7 +3275,8 @@ a {
 }
 
 .pros_bullet {
-  border: 1px solid var(--2);
+	border:none;
+  /* border: 1px solid var(--2); */
   width: 110px;
   color: var(--2);
   border-radius: 10px;
@@ -3707,8 +3708,10 @@ a {
 .footer_menu_wrap {
   justify-content: space-between;
   width: 40%;
-  height: 55px;
+  height: 60px;
   display: flex;
+  padding-bottom: 20px;
+  padding-right:20px;
 }
 
 .terms {
@@ -4794,7 +4797,7 @@ a {
   }
 
   .footer_info {
-    height: 343px;
+    height: 280px;
   }
 
   .footer_logo {

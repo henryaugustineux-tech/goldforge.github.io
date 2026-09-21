@@ -2620,7 +2620,7 @@ a {
 .s2_up {
   justify-content: space-between;
   align-items: flex-end;
-  display: flex;
+  /* display: flex; */
 }
 
 .s2title1 {
@@ -2648,6 +2648,7 @@ a {
   justify-content: flex-end;
   align-items: flex-start;
   display: flex;
+  padding-top: 25px;
 }
 
 .s6_slogan {
@@ -3405,7 +3406,26 @@ a {
 .glasstext {
   font-size: 12px;
 }
-
+.aboutextcont {
+  font-size: 18px;
+  font-family: Urbanist, sans-serif;
+  color:#fff;
+}
+.abouttitle {
+  -webkit-text-fill-color: transparent;
+  /* background-image: linear-gradient(315deg, #fff 22%, #9990); */
+  background-image: linear-gradient(315deg, #fff 100%, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 23px;
+  line-height: 120%;
+}
+.aboutextcontbold {
+  font-size: 18px;
+  font-family: Urbanist, sans-serif;
+  color:#fff;
+  font-weight:bold;
+}
 .glasscard_wrap {
   pointer-events: none;
   justify-content: flex-end;

@@ -3419,6 +3419,7 @@ a {
   background-clip: text;
   font-size: 23px;
   line-height: 120%;
+  font-weight: 500;
 }
 
 .glasscard_wrap {

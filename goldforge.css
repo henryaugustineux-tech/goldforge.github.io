@@ -3693,7 +3693,7 @@ a {
 
 .s10_wrap {
   grid-column-gap: 80px;
-  grid-row-gap: 80px;
+  grid-row-gap: 20px;
   flex-flow: column;
   padding: 170px 2% 20px;
   display: flex;
@@ -3893,6 +3893,8 @@ a {
   grid-column-gap: 70px;
   grid-row-gap: 70px;
   display: flex;
+  	margin-top:20px;
+
 }
 
 .social_wrap {
@@ -6060,7 +6062,7 @@ a {
 
   .s10_wrap {
     grid-column-gap: 40px;
-    grid-row-gap: 40px;
+    grid-row-gap: 20px;
     padding-top: 100px;
   }
 
@@ -6128,7 +6130,7 @@ a {
 
   .f_info_l {
     grid-column-gap: 40px;
-    grid-row-gap: 40px;
+    grid-row-gap: 20px;
   }
 
   .submit-button {

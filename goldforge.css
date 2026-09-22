@@ -3068,7 +3068,7 @@ a {
 
 .lineh {
   background-color: var(--4);
-  width: 50px;
+  width: 40px;
   height: 2px;
 }
 
@@ -4682,7 +4682,7 @@ a {
   }
 
   .lineh._01, .lineh._02, .lineh._03, .lineh._04, .lineh._05, .lineh._06, .lineh._07, .lineh._08{
-    width: 50px;
+    width: 40px;
   }
 
   .s4_numpag {
@@ -6441,7 +6441,7 @@ a {
   }
 
   .lineh {
-    width: 35px;
+    width: 30px;
   }
 
   .s4_numpag {
@@ -6851,7 +6851,7 @@ a {
   }
 
   .lineh {
-    width: 7.9602vw;
+    width: 25px;
   }
 
   .s4_numpag {

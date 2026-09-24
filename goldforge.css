@@ -2766,12 +2766,12 @@ a {
 }
 
 .s2_cardtext {
-  color: var(--3);
+  color: #fff;
   font-size: 14px;
 }
 
 .s2_cardtext.color {
-  color: var(--4);
+  color: #fff;
 }
 
 .section3 {

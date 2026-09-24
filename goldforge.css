@@ -2696,12 +2696,43 @@ a {
 .s2card._03 {
   grid-column-gap: 140px;
   grid-row-gap: 140px;
-  background-image: url("images/s2Card_03.png");
+  background-image: url("images/JP_Nagar.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 33%;
 }
+
+.s2card._10 {
+  grid-column-gap: 140px;
+  grid-row-gap: 140px;
+  background-image: url("images/Chaitra_Manor_1.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 33%;
+}
+
+.s2card._11 {
+  grid-column-gap: 140px;
+  grid-row-gap: 140px;
+  background-image: url("images/RT_Nagar_1.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 33%;
+}
+
+.s2card._12 {
+  grid-column-gap: 140px;
+  grid-row-gap: 140px;
+  background-image: url("images/JP_Nagar_1.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 33%;
+}
+
 
 .cardnum {
   font-size: 60px;
@@ -5116,6 +5147,21 @@ a {
   .s2card._03 {
     width: 600px;
     height: 450px;
+  } 
+  
+  .s2card._10 {
+    width: 600px;
+    height: 450px;
+  } 
+  
+  .s2card._11 {
+    width: 600px;
+    height: 450px;
+  } 
+  
+  .s2card._12 {
+    width: 600px;
+    height: 450px;
   }
 
   .cardnum {
@@ -5738,6 +5784,24 @@ a {
   }
 
   .s2card._03 {
+    grid-column-gap: 170px;
+    grid-row-gap: 170px;
+    width: 362px;
+  }
+  
+  .s2card._10 {
+    grid-column-gap: 170px;
+    grid-row-gap: 170px;
+    width: 362px;
+  }
+
+  .s2card._11 {
+    grid-column-gap: 120px;
+    grid-row-gap: 120px;
+    width: 362px;
+  }
+
+  .s2card._12 {
     grid-column-gap: 170px;
     grid-row-gap: 170px;
     width: 362px;
@@ -6753,7 +6817,7 @@ a {
     font-size: 10.9453vw;
   }
 
-  .s2card._01, .s2card._02, .s2card._03 {
+  .s2card._01, .s2card._02, .s2card._03, .s2card._10, .s2card._11, .s2card._12  {
     width: 100%;
   }
 

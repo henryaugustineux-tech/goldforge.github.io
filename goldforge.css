@@ -2890,7 +2890,7 @@ a {
   grid-row-gap: 50px;
   flex-flow: column;
   width: 100%;
-  padding-top: 170px;
+  padding-top: 75px;
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
@@ -5773,7 +5773,7 @@ a {
   }
 
   .s4_wrap {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .s4_slogan {

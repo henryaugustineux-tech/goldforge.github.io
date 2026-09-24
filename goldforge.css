@@ -3058,6 +3058,10 @@ a {
   background-image: url("images/Sanjay_Nagar.png");
 }
 
+.objectimage.is--ninth {
+  background-image: url("images/Sailors_Maritime.png");
+}
+
 .s4slidepag {
   flex-flow: column;
   justify-content: space-between;
@@ -3077,7 +3081,7 @@ a {
   background-color: var(--4);
 }
 
-.lineh._01.active, .lineh._02.active, .lineh._03.active, .lineh._04.active, .lineh._05.active, .lineh._06.active, .lineh._07.active, .lineh._08.active{
+.lineh._01.active, .lineh._02.active, .lineh._03.active, .lineh._04.active, .lineh._05.active, .lineh._06.active, .lineh._07.active, .lineh._08.active, .lineh._09.active{
   background-color: var(--2);
 }
 
@@ -4684,7 +4688,7 @@ a {
     font-size: 6.94444vw;
   }
 
-  .lineh._01, .lineh._02, .lineh._03, .lineh._04, .lineh._05, .lineh._06, .lineh._07, .lineh._08{
+  .lineh._01, .lineh._02, .lineh._03, .lineh._04, .lineh._05, .lineh._06, .lineh._07, .lineh._08, .lineh._09{
     width: 40px;
   }
 
@@ -5246,7 +5250,7 @@ a {
     padding-bottom: 20px;
   }
 
-  .lineh, .lineh._01, .lineh._02, .lineh._03, .lineh._04, .lineh._05, .lineh._06, .lineh._07, .lineh._08 {
+  .lineh, .lineh._01, .lineh._02, .lineh._03, .lineh._04, .lineh._05, .lineh._06, .lineh._07, .lineh._08, .lineh._09  {
     width: 113px;
   }
 

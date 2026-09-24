@@ -4921,6 +4921,7 @@ a {
   }
 
   .s1_wrap {
+	  width: 100%;
     height: 1127px;
     padding: 15px 25px 237px;
   }
@@ -7239,5 +7240,219 @@ a {
 
   .hero_ctaslogan_wrap {
     width: 100%;
+  }
+}
+/* ==========================================================
+   Gold Forge — Large-screen responsive enhancement
+   Optimised for 1920px, 2560px and 4K desktop displays.
+   Keeps the existing visual direction while using the extra
+   viewport width more effectively.
+   ========================================================== */
+
+@media screen and (min-width: 1921px) {
+  html, body {
+    width: 100%;
+    max-width: none;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto;
+  }
+
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .section9,
+  .section10,
+  footer {
+    width: 100%;
+  }
+
+  /* Hero */
+  .s1_wrap {
+    height: min(1127px, 100vh);
+    min-height: 900px;
+    padding: clamp(18px, 0.75vw, 30px) clamp(24px, 1.3vw, 42px) clamp(150px, 9vw, 237px);
+  }
+
+  .navmenu {
+    padding: clamp(12px, 0.65vw, 18px);
+  }
+
+  .hero_bottom {
+    padding-left: clamp(15px, 0.8vw, 24px);
+    padding-right: clamp(15px, 0.8vw, 24px);
+  }
+
+  .slogan_hero {
+    font-size: clamp(140px, 5.47vw, 180px);
+  }
+
+  .hero_left {
+    max-width: 62%;
+  }
+
+  .hero_right {
+    width: clamp(686px, 35.7vw, 900px);
+  }
+
+  .hero_blur {
+    min-height: clamp(180px, 9.4vw, 240px);
+  }
+
+  .slider {
+    height: clamp(307px, 16vw, 410px);
+  }
+
+  .heroslide_im {
+    width: clamp(327px, 17vw, 435px);
+  }
+
+  .hero_cardnum {
+    font-size: clamp(100px, 5.2vw, 135px);
+  }
+
+  .hero_cardtext {
+    font-size: clamp(20px, 1.04vw, 27px);
+  }
+
+  .hero_slidertitle {
+    font-size: clamp(30px, 1.56vw, 40px);
+  }
+
+  .hero_slidertext,
+  .hero_text {
+    font-size: clamp(16px, 0.83vw, 21px);
+  }
+
+  /* About */
+  .s2_wrap,
+  .s3_wrap,
+  .s4_wrap,
+  .s5_wrap,
+  .s7_wrap,
+  .s9_wrap,
+  .s10_wrap {
+    padding-left: clamp(40px, 2vw, 64px);
+    padding-right: clamp(40px, 2vw, 64px);
+  }
+
+  .s2title1,
+  .s2title2,
+  .s5title1,
+  .s5title2,
+  .s9title1,
+  .s9title2,
+  .s10title {
+    font-size: clamp(140px, 5.47vw, 180px);
+  }
+
+  .s2_title {
+    width: min(1132px, 58vw);
+  }
+
+  .s2card {
+    width: 32%;
+    max-width: 720px;
+  }
+
+  .cardnum {
+    font-size: clamp(100px, 3.9vw, 125px);
+  }
+
+  .s2_cardtitle {
+    font-size: clamp(30px, 1.17vw, 38px);
+  }
+
+  .s2_cardtext {
+    font-size: clamp(20px, 0.83vw, 27px);
+  }
+
+  /* Scroll-story section */
+  .div-block-4 {
+    width: min(1620px, 82vw);
+  }
+
+  .s3image,
+  .s3image._01,
+  .s3image._02,
+  .s3image._03,
+  .s3image._04 {
+    height: clamp(810px, 42vw, 1080px);
+  }
+
+  .s3imtitle {
+    font-size: clamp(50px, 1.95vw, 64px);
+  }
+
+  .s3imtext,
+  .s3imtext._1 {
+    font-size: clamp(30px, 1.17vw, 38px);
+  }
+
+  /* Projects */
+  .s4_wrap {
+    padding-top: clamp(240px, 12.5vw, 320px);
+  }
+
+  .s4title1,
+  .s4title2 {
+    font-size: clamp(130px, 5.08vw, 165px);
+  }
+
+  .slider_s4 {
+    height: clamp(730px, 38vw, 975px);
+  }
+
+  .s4slide_r {
+    width: min(920px, 38vw);
+  }
+
+  .s4slide_l {
+    width: min(700px, 29vw);
+  }
+
+  .objectimage {
+    height: clamp(610px, 32vw, 820px);
+  }
+
+  .objectname {
+    font-size: clamp(80px, 3.13vw, 100px);
+  }
+
+  .text-block {
+    font-size: clamp(250px, 9.77vw, 315px);
+  }
+
+  /* Keep large desktop media crisp and fully contained */
+  .hero_bg,
+  .objectimage,
+  .s3image,
+  .s5_image,
+  .s6wrap,
+  .s7_l {
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media screen and (min-width: 2561px) {
+  .wrapper {
+    max-width: 2880px;
+  }
+
+  .s1_wrap {
+    min-height: 1000px;
   }
 }

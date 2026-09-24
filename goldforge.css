@@ -3251,7 +3251,7 @@ a {
 .s5_wrap {
   justify-content: space-between;
   width: 100%;
-  padding-top: 170px;
+  padding-top: 70px;
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
@@ -3356,7 +3356,7 @@ a {
   align-items: center;
   width: 100%;
   height: 120vh;
-  margin-top: 170px;
+  margin-top: 80px;
   padding-left: 2%;
   padding-right: 2%;
   position: sticky;
@@ -3497,7 +3497,7 @@ a {
 .s7_wrap {
   justify-content: space-between;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
@@ -3621,7 +3621,7 @@ a {
   grid-row-gap: 50px;
   flex-flow: column;
   width: 100%;
-  padding-top: 170px;
+  padding-top: 70px;
   padding-left: 2%;
   padding-right: 2%;
   display: flex;

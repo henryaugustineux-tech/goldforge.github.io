@@ -2114,6 +2114,17 @@ textarea.w-input, textarea.w-select {
   box-shadow: 0 0 3px 1px #3898ec;
 }
 
+h1home {
+  color: var(--2);
+  letter-spacing: -.02em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Urbanist, sans-serif;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
 h1 {
   color: var(--2);
   letter-spacing: -.02em;
@@ -2219,14 +2230,13 @@ a {
 }
 
 .navmenu {
-  background: rgb(0 0 0 / 60%);
+  /* background: rgb(0 0 0 / 60%); */
   opacity:50%;
   border-radius: 12px;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 7px 10px;
   display: flex;
 }
 
@@ -2240,11 +2250,10 @@ a {
 }
 
 .hero_logo {
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 100%;
   display: flex;
-  color:#fff;
   font-family: Urbanist, sans-serif;
   font-weight: 400;
   line-height: 50%;
@@ -4565,7 +4574,7 @@ a {
 
 @media screen and (min-width: 1440px) {
   .navmenu {
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 10px;
   }
 
@@ -6383,7 +6392,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    display: flex;
+    display: right;
   }
 
   .menumobile {

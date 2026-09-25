@@ -2234,7 +2234,7 @@ a {
   opacity:50%;
   border-radius: 12px;
   flex-flow: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   width: 100%;
   display: flex;
@@ -2242,7 +2242,7 @@ a {
 
 .hero_logo1 {
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   height: 100%;
   display: flex;
   color:#fff;

@@ -7524,3 +7524,138 @@ a {
     min-height: 1000px;
   }
 }
+
+/* ==========================================================
+   Gold Forge — Luxury Logo Intro
+   Displays the brand mark on page load, then reveals the
+   existing homepage underneath. No changes to page layout.
+   ========================================================== */
+
+.gf-logo-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #ffffff;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition:
+    opacity 0.85s cubic-bezier(.22, 1, .36, 1),
+    visibility 0.85s linear;
+}
+
+.gf-logo-intro__inner {
+  width: min(520px, 72vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(12px) scale(.94);
+  animation: gfLogoReveal 1.05s cubic-bezier(.22, 1, .36, 1) .15s forwards;
+}
+
+.gf-logo-intro__logo {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Subtle premium gold light sweep across the logo. */
+.gf-logo-intro__inner::after {
+  content: "";
+  position: absolute;
+  width: 22%;
+  height: 140%;
+  top: -20%;
+  left: -45%;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255,255,255,0) 25%,
+    rgba(255,255,255,.75) 50%,
+    rgba(255,255,255,0) 75%,
+    transparent 100%
+  );
+  transform: skewX(-18deg);
+  animation: gfLogoShine 1.15s ease .95s forwards;
+}
+
+.gf-logo-intro.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.gf-intro-active {
+  overflow: hidden !important;
+}
+
+@keyframes gfLogoReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(.94);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes gfLogoShine {
+  0% {
+    left: -45%;
+  }
+  100% {
+    left: 135%;
+  }
+}
+
+/* Small upward movement just before the homepage is revealed. */
+.gf-logo-intro.is-hidden .gf-logo-intro__inner {
+  opacity: 0;
+  transform: translateY(-24px) scale(1.015);
+  transition:
+    opacity .65s ease,
+    transform .75s cubic-bezier(.22, 1, .36, 1);
+}
+
+/* Keep the intro proportional on smaller screens. */
+@media screen and (max-width: 767px) {
+  .gf-logo-intro__inner {
+    width: min(390px, 78vw);
+  }
+
+  .gf-logo-intro__logo {
+    max-height: 130px;
+  }
+}
+
+/* Accessibility: respect reduced-motion preferences. */
+@media (prefers-reduced-motion: reduce) {
+  .gf-logo-intro__inner {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .gf-logo-intro__inner::after {
+    display: none;
+  }
+
+  .gf-logo-intro {
+    transition: none;
+  }
+}
+

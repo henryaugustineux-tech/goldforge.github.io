@@ -124,24 +124,12 @@ html { scroll-behavior: smooth; }
 </style>
 </head>
 <body class="body">
-<!-- Gold Forge luxury logo intro -->
-<div class="gf-logo-intro" id="gfLogoIntro" aria-label="Gold Forge">
-  <div class="gf-logo-intro__inner">
-    <img
-      src="images/footerlogo.png"
-      loading="eager"
-      alt="Gold Forge Real Estate"
-      class="gf-logo-intro__logo"
-    />
-  </div>
-</div>
-<!-- <div data-w-id="235ac2e9-7168-40c7-5f8f-f4d50ca4a4ed" class="preloader">
+<div data-w-id="235ac2e9-7168-40c7-5f8f-f4d50ca4a4ed" class="preloader">
 <div data-w-id="6faa8773-5932-0138-f2f4-7b7e45f7c4ca" class="loader_column _1"></div>
 <div data-w-id="fd3c36b7-16e7-2d85-33d0-a97f8e6d7e03" class="loader_column _2">
 <h4 data-w-id="1b53b3f3-7391-274e-b910-75155cfb0c1f" style="opacity:0" class="preloader_title">Your</h4></div>
 <div data-w-id="29dab6a5-01ac-44a0-ddb7-6b25719f93cb" class="loader_column _3"><div data-w-id="2e46d503-a9b9-52f1-1164-60fab5dd5a6f" class="preloader_text_wrap"><h4 style="opacity:0" class="preloader_text">home</h4><h4 style="opacity:0" class="preloader_text">next move</h4><h4 style="opacity:0" class="preloader_text">investment</h4><h4 style="opacity:0" class="preloader_text">future</h4></div></div>
-<div data-w-id="53e49f85-bb03-25f5-1b8c-e02ca8d1b1fe" class="loader_column _4"></div></div> -->
-
+<div data-w-id="53e49f85-bb03-25f5-1b8c-e02ca8d1b1fe" class="loader_column _4"></div></div>
 <div class="wrapper">
 <div class="menumobile">
 <div class="menumobile_wrap">
@@ -337,35 +325,11 @@ GOLD FORGE - Forging Foundations. Building Legacies.<br/><br/></div></div>
 </script>
 
 <script>
-(function () {
-  var intro = document.getElementById("gfLogoIntro");
+document.body.style.overflow = "hidden";
 
-  if (!intro) return;
-
-  document.body.classList.add("gf-intro-active");
-
-  function finishIntro() {
-    if (document.body.dataset.gfIntroFinished === "true") return;
-    document.body.dataset.gfIntroFinished = "true";
-
-    intro.classList.add("is-hidden");
-    document.body.classList.remove("gf-intro-active");
-
-    setTimeout(function () {
-      intro.remove();
-    }, 900);
-  }
-
-  window.addEventListener("load", function () {
-    /* Premium logo reveal: approximately 2.4 seconds total. */
-    setTimeout(finishIntro, 2400);
-  });
-
-  /* If the page is restored from browser cache, don't trap the user. */
-  window.addEventListener("pageshow", function (event) {
-    if (event.persisted) finishIntro();
-  });
-})();
+window.addEventListener("load", function() {
+  document.body.style.overflow = "auto";
+});
 </script>
 <script>
 /* Local-only enhancements */

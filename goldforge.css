@@ -3784,6 +3784,7 @@ a {
   align-items: flex-end;
   min-height: 70px;
   display: flex;
+  margin-top:50px;
 }
 
 .footer_logo {

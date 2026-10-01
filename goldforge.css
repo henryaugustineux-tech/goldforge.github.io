@@ -3823,6 +3823,11 @@ a {
   font-size: 12px;
   line-height: 100%;
 }
+.allrightsdisclaim {
+  margin-top: 5px;
+  font-size: 9px;
+  line-height: 100%;
+}
 
 .link {
   color: var(--3);

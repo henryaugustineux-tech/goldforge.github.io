@@ -2340,6 +2340,7 @@ a {
   grid-row-gap: 10px;
   flex-flow: column;
   display: flex;
+  margin-bottom:50px;
 }
 
 .slogan_hero {

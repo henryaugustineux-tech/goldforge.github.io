@@ -2358,6 +2358,7 @@ a {
   justify-content: flex-start;
   align-items: flex-end;
   display: flex;
+  margin-top:-10px;
 }
 
 .hero_text {
@@ -4616,6 +4617,7 @@ a {
 
   .slogan_hero {
     font-size: 3.94444vw;
+	font-family: Urbanist, sans-serif;
   }
 
   .hero_text {

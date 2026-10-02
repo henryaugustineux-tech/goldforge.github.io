@@ -4003,7 +4003,7 @@ a {
 }
 
 .contactmail, .contactnum {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .num_mail {
@@ -4037,7 +4037,7 @@ a {
 
 .plus_im {
   z-index: 2;
-  width: 175px;
+  /* width: 175px; */
   display: block;
   position: absolute;
 }
@@ -4045,7 +4045,7 @@ a {
 .minus_im {
   z-index: 1;
   filter: invert();
-  width: 175px;
+  /* width: 175px; */
   position: absolute;
 }
 
@@ -4849,7 +4849,7 @@ a {
     font-size: .972222vw;
   }
   .glasstextsamp {
-    font-size: 14px;
+    font-size: 18px;
 	padding-top:8px;
 	justify-content: center;
   }
@@ -5129,7 +5129,7 @@ a {
   }
 
   .decarrow.s2cards, .decarrow.s9cards {
-    width: 70px;
+    /* width: 70px; */
     height: 70px;
   }
 
@@ -5651,7 +5651,7 @@ a {
   }
 
   .contactmail, .contactnum, .city {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .adress {

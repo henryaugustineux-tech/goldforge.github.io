@@ -6068,6 +6068,10 @@ a {
   .glasstext {
     font-size: 14px;
   }
+    .glasstextsamp {
+    font-size: 14px;
+	padding-top:10px;
+  }
 
   .s7_wrap {
     flex-flow: column;
